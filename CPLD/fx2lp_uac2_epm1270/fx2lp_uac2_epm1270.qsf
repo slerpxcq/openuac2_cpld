@@ -1,0 +1,285 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2021  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+# Date created = 21:11:21  November 04, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		fx2lp_uac2_epm1270_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name DEVICE EPM1270T144C5
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:11:21  NOVEMBER 04, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY OFF -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_location_assignment PIN_113 -to sram_addr[17]
+set_location_assignment PIN_112 -to sram_addr[16]
+set_location_assignment PIN_110 -to sram_oe_n
+set_location_assignment PIN_109 -to sram_ub_n
+set_location_assignment PIN_108 -to sram_lb_n
+set_location_assignment PIN_107 -to sram_io[15]
+set_location_assignment PIN_106 -to sram_io[14]
+set_location_assignment PIN_105 -to sram_io[13]
+set_location_assignment PIN_104 -to sram_io[12]
+set_location_assignment PIN_103 -to sram_addr[0]
+set_location_assignment PIN_102 -to sram_addr[1]
+set_location_assignment PIN_101 -to sram_addr[2]
+set_location_assignment PIN_98 -to sram_addr[3]
+set_location_assignment PIN_97 -to sram_addr[4]
+set_location_assignment PIN_81 -to sram_addr[5]
+set_location_assignment PIN_80 -to sram_addr[6]
+set_location_assignment PIN_96 -to sram_ce_n
+set_location_assignment PIN_111 -to sram_addr[15]
+set_location_assignment PIN_71 -to sram_addr[14]
+set_location_assignment PIN_70 -to sram_addr[13]
+set_location_assignment PIN_69 -to sram_addr[12]
+set_location_assignment PIN_68 -to sram_addr[11]
+set_location_assignment PIN_67 -to sram_addr[10]
+set_location_assignment PIN_76 -to sram_io[11]
+set_location_assignment PIN_75 -to sram_io[10]
+set_location_assignment PIN_74 -to sram_io[9]
+set_location_assignment PIN_73 -to sram_io[8]
+set_location_assignment PIN_85 -to sram_io[7]
+set_location_assignment PIN_86 -to sram_io[6]
+set_location_assignment PIN_87 -to sram_io[5]
+set_location_assignment PIN_88 -to sram_io[4]
+set_location_assignment PIN_89 -to sram_io[3]
+set_location_assignment PIN_93 -to sram_io[2]
+set_location_assignment PIN_94 -to sram_io[1]
+set_location_assignment PIN_95 -to sram_io[0]
+set_location_assignment PIN_79 -to sram_addr[7]
+set_location_assignment PIN_78 -to sram_addr[8]
+set_location_assignment PIN_77 -to sram_addr[9]
+set_location_assignment PIN_84 -to sram_we_n
+set_location_assignment PIN_123 -to cy_fd[0]
+set_location_assignment PIN_122 -to cy_fd[1]
+set_location_assignment PIN_125 -to cy_fd[2]
+set_location_assignment PIN_124 -to cy_fd[3]
+set_location_assignment PIN_31 -to cy_fd[4]
+set_location_assignment PIN_38 -to cy_fd[7]
+set_location_assignment PIN_32 -to cy_fd[5]
+set_location_assignment PIN_37 -to cy_fd[6]
+set_location_assignment PIN_49 -to cy_fd[8]
+set_location_assignment PIN_50 -to cy_fd[9]
+set_location_assignment PIN_51 -to cy_fd[10]
+set_location_assignment PIN_52 -to cy_fd[11]
+set_location_assignment PIN_53 -to cy_fd[12]
+set_location_assignment PIN_55 -to cy_fd[13]
+set_location_assignment PIN_57 -to cy_fd[14]
+set_location_assignment PIN_58 -to cy_fd[15]
+set_location_assignment PIN_44 -to cy_fifoadr[1]
+set_location_assignment PIN_43 -to cy_fifoadr[0]
+set_location_assignment PIN_41 -to cy_flagc
+set_location_assignment PIN_130 -to cy_ifclk
+set_location_assignment PIN_42 -to cy_sloe
+set_location_assignment PIN_59 -to cy_slrd
+set_location_assignment PIN_60 -to cy_slwr
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_dsd_master -section_id eda_simulation
+set_location_assignment PIN_114 -to led5
+set_location_assignment PIN_117 -to led6
+set_location_assignment PIN_118 -to led1
+set_location_assignment PIN_119 -to led2
+set_location_assignment PIN_120 -to led3
+set_location_assignment PIN_121 -to led4
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_sram_if -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_sram_if
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_sram_if -section_id tb_sram_if
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fd[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fifoadr[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_fifoadr[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_flagc
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_ifclk
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_sloe
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_slrd
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_slwr
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to led1
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to led2
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to led3
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to led4
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to led5
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to led6
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_addr[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_ce_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_io[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_lb_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_oe_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_ub_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to sram_we_n
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_fx2_if -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_fx2_if
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_fx2_if -section_id tb_fx2_if
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_circ_buf -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_circ_buf
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_circ_buf -section_id tb_circ_buf
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to led1
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to led2
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to led3
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to led4
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to led5
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to led6
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to aud_ckin
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to aud_cksel
+set_location_assignment PIN_18 -to aud_ckin
+set_location_assignment PIN_23 -to aud_cksel
+set_location_assignment PIN_127 -to cy_pa1
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_pa1
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_pa0
+set_location_assignment PIN_131 -to cy_pa0
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to i2s_sck
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to i2s_sd
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to i2s_ws
+set_location_assignment PIN_14 -to i2s_sck
+set_location_assignment PIN_16 -to i2s_sd
+set_location_assignment PIN_27 -to i2s_ws
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_clk_divider -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_clk_divider
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_clk_divider -section_id tb_clk_divider
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_i2s_master -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_i2s_master
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_i2s_master -section_id tb_i2s_master
+set_location_assignment PIN_48 -to cy_pa7
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_pa7
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_i2c_if -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_i2c_if
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_i2c_if -section_id tb_i2c_if
+set_location_assignment PIN_133 -to i2c_scl
+set_location_assignment PIN_132 -to i2c_sda
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to i2c_scl
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to i2c_sda
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_dop_detector -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_dop_detector
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_dop_detector -section_id tb_dop_detector
+set_location_assignment PIN_1 -to i2s_mck
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to i2s_mck
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to aud_ck_delay_in
+set_location_assignment PIN_11 -to aud_ck_delay_in
+set_location_assignment PIN_7 -to aud_ckout
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to aud_ckout
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to aud_ck_delay_in
+set_location_assignment PIN_134 -to codec_rst_n
+set_location_assignment PIN_45 -to cy_pa6
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cy_pa6
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to codec_rst_n
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_sram_if.v -section_id tb_sram_if
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_fx2_if.v -section_id tb_fx2_if
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_circ_buf.v -section_id tb_circ_buf
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_clk_divider.v -section_id tb_clk_divider
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_i2s_master.v -section_id tb_i2s_master
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_i2c_if.v -section_id tb_i2c_if
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_dop_detector.v -section_id tb_dop_detector
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_dsd_master -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_dsd_master
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_dsd_master -section_id tb_dsd_master
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_dsd_master.v -section_id tb_dsd_master
+set_location_assignment PIN_61 -to data_req
+set_global_assignment -name VERILOG_FILE dop_detector.v
+set_global_assignment -name VERILOG_FILE dsd_master.v
+set_global_assignment -name VERILOG_FILE feedback_gen.v
+set_global_assignment -name VERILOG_FILE reg_file.v
+set_global_assignment -name VERILOG_FILE i2c_if.v
+set_global_assignment -name VERILOG_FILE pulse_extender.v
+set_global_assignment -name VERILOG_FILE circ_buf.v
+set_global_assignment -name BDF_FILE top.bdf
+set_global_assignment -name VERILOG_FILE fx2_if.v
+set_global_assignment -name VERILOG_FILE i2s_master.v
+set_global_assignment -name VERILOG_FILE clk_divider.v
+set_global_assignment -name VERILOG_FILE pos_edge_det.v
+set_global_assignment -name VERILOG_FILE dual_edge_det.v
+set_global_assignment -name VERILOG_FILE audio_if.v
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS OFF
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name OPTIMIZATION_MODE "AGGRESSIVE PERFORMANCE"
+set_location_assignment PIN_62 -to data_ok

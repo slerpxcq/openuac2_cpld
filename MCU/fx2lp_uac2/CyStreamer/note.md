@@ -1,0 +1,2 @@
+CUR = 0x01
+RANGE = 0x02

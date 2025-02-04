@@ -1,0 +1,94 @@
+# Copyright (C) 2021  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+# File: D:\Documents\FPGA\fx2lp_uac2_epm1270\fx2lp_uac2_epm1270.csv
+# Generated on: Thu Dec 19 18:31:21 2024
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,Fitter Location,I/O Standard,Reserved,Current Strength,Strict Preservation
+cy_fd[15],Bidir,PIN_58,4,PIN_58,3.3-V LVTTL,,,
+cy_fd[14],Bidir,PIN_57,4,PIN_57,3.3-V LVTTL,,,
+cy_fd[13],Bidir,PIN_55,4,PIN_55,3.3-V LVTTL,,,
+cy_fd[12],Bidir,PIN_53,4,PIN_53,3.3-V LVTTL,,,
+cy_fd[11],Bidir,PIN_52,4,PIN_52,3.3-V LVTTL,,,
+cy_fd[10],Bidir,PIN_51,4,PIN_51,3.3-V LVTTL,,,
+cy_fd[9],Bidir,PIN_50,4,PIN_50,3.3-V LVTTL,,,
+cy_fd[8],Bidir,PIN_49,4,PIN_49,3.3-V LVTTL,,,
+cy_fd[7],Bidir,PIN_38,4,PIN_38,3.3-V LVTTL,,,
+cy_fd[6],Bidir,PIN_37,4,PIN_37,3.3-V LVTTL,,,
+cy_fd[5],Bidir,PIN_32,1,PIN_32,3.3-V LVTTL,,,
+cy_fd[4],Bidir,PIN_31,1,PIN_31,3.3-V LVTTL,,,
+cy_fd[3],Bidir,PIN_124,2,PIN_124,3.3-V LVTTL,,,
+cy_fd[2],Bidir,PIN_125,2,PIN_125,3.3-V LVTTL,,,
+cy_fd[1],Bidir,PIN_122,2,PIN_122,3.3-V LVTTL,,,
+cy_fd[0],Bidir,PIN_123,2,PIN_123,3.3-V LVTTL,,,
+cy_fifoadr[1],Output,PIN_44,4,PIN_44,3.3-V LVTTL,,,
+cy_fifoadr[0],Output,PIN_43,4,PIN_43,3.3-V LVTTL,,,
+cy_flaga,Input,PIN_39,4,PIN_39,3.3-V LVTTL,,,
+cy_flagc,Input,PIN_41,4,PIN_41,3.3-V LVTTL,,,
+cy_ifclk,Input,PIN_130,2,PIN_130,3.3-V LVTTL,,,
+cy_pktend,Output,PIN_45,4,PIN_45,3.3-V LVTTL,,,
+cy_sloe,Output,PIN_42,4,PIN_42,3.3-V LVTTL,,,
+cy_slrd,Output,PIN_59,4,PIN_59,3.3-V LVTTL,,,
+cy_slwr,Output,PIN_60,4,PIN_60,3.3-V LVTTL,,,
+led1,Output,PIN_118,2,PIN_118,3.3-V LVTTL,,,
+led2,Output,PIN_119,2,PIN_119,3.3-V LVTTL,,,
+led3,Output,PIN_120,2,PIN_120,3.3-V LVTTL,,,
+led4,Output,PIN_121,2,PIN_121,3.3-V LVTTL,,,
+led5,Output,PIN_114,2,PIN_114,3.3-V LVTTL,,,
+led6,Output,PIN_117,2,PIN_117,3.3-V LVTTL,,,
+sram_addr[17],Unknown,PIN_113,2,,3.3-V LVTTL,,,
+sram_addr[16],Unknown,PIN_112,2,,3.3-V LVTTL,,,
+sram_oe_n,Unknown,PIN_110,2,,3.3-V LVTTL,,,
+sram_ub_n,Unknown,PIN_109,2,,3.3-V LVTTL,,,
+sram_lb_n,Unknown,PIN_108,3,,3.3-V LVTTL,,,
+sram_io[15],Unknown,PIN_107,3,,3.3-V LVTTL,,,
+sram_io[14],Unknown,PIN_106,3,,3.3-V LVTTL,,,
+sram_io[13],Unknown,PIN_105,3,,3.3-V LVTTL,,,
+sram_io[12],Unknown,PIN_104,3,,3.3-V LVTTL,,,
+sram_addr[0],Unknown,PIN_103,3,,3.3-V LVTTL,,,
+sram_addr[1],Unknown,PIN_102,3,,3.3-V LVTTL,,,
+sram_addr[2],Unknown,PIN_101,3,,3.3-V LVTTL,,,
+sram_addr[3],Unknown,PIN_98,3,,3.3-V LVTTL,,,
+sram_addr[4],Unknown,PIN_97,3,,3.3-V LVTTL,,,
+sram_addr[5],Unknown,PIN_81,3,,3.3-V LVTTL,,,
+sram_addr[6],Unknown,PIN_80,3,,3.3-V LVTTL,,,
+sram_ce_n,Unknown,PIN_96,3,,3.3-V LVTTL,,,
+sram_addr[15],Unknown,PIN_111,2,,3.3-V LVTTL,,,
+sram_addr[14],Unknown,PIN_71,4,,3.3-V LVTTL,,,
+sram_addr[13],Unknown,PIN_70,4,,3.3-V LVTTL,,,
+sram_addr[12],Unknown,PIN_69,4,,3.3-V LVTTL,,,
+sram_addr[11],Unknown,PIN_68,4,,3.3-V LVTTL,,,
+sram_addr[10],Unknown,PIN_67,4,,3.3-V LVTTL,,,
+sram_io[11],Unknown,PIN_76,3,,3.3-V LVTTL,,,
+sram_io[10],Unknown,PIN_75,3,,3.3-V LVTTL,,,
+sram_io[9],Unknown,PIN_74,3,,3.3-V LVTTL,,,
+sram_io[8],Unknown,PIN_73,3,,3.3-V LVTTL,,,
+sram_io[7],Unknown,PIN_85,3,,3.3-V LVTTL,,,
+sram_io[6],Unknown,PIN_86,3,,3.3-V LVTTL,,,
+sram_io[5],Unknown,PIN_87,3,,3.3-V LVTTL,,,
+sram_io[4],Unknown,PIN_88,3,,3.3-V LVTTL,,,
+sram_io[3],Unknown,PIN_89,3,,3.3-V LVTTL,,,
+sram_io[2],Unknown,PIN_93,3,,3.3-V LVTTL,,,
+sram_io[1],Unknown,PIN_94,3,,3.3-V LVTTL,,,
+sram_io[0],Unknown,PIN_95,3,,3.3-V LVTTL,,,
+sram_addr[7],Unknown,PIN_79,3,,3.3-V LVTTL,,,
+sram_addr[8],Unknown,PIN_78,3,,3.3-V LVTTL,,,
+sram_addr[9],Unknown,PIN_77,3,,3.3-V LVTTL,,,
+sram_we_n,Unknown,PIN_84,3,,3.3-V LVTTL,,,
+cy_flagb,Unknown,PIN_40,4,,,,,
+cy_flagd,Unknown,PIN_48,4,,,,,

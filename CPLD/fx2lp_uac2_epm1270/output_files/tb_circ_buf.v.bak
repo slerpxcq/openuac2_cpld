@@ -1,0 +1,2 @@
+module tb_circ_buf;
+endmodule

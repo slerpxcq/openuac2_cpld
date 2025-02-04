@@ -1,0 +1,8 @@
+{signal: [
+  {name: 'ifclk',      wave: 'N.....|.......'},
+  {name: 'ef_n',       wave: '0.1...|....0..'},
+  {name: 'state',      wave: '=..=..|.....=.', data:['idle', 'read', 'idle']},
+  {name: 'slrd_n',     wave: '1..0..|.....1.' },
+  {name: 'fd',         wave: 'x...==|======x', data: ['0', '1', '','','N-3','N-2','N-1','N']},
+  {name: 'sloe_n',     wave: '1...0.|......1'}
+]}

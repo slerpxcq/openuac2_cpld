@@ -1,0 +1,141 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 312 224)
+	(text "reg_file" (rect 5 0 34 12)(font "Arial" ))
+	(text "inst" (rect 8 192 20 204)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "rst_n" (rect 0 0 21 12)(font "Arial" ))
+		(text "rst_n" (rect 21 27 42 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" ))
+		(text "clk" (rect 21 43 31 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "addr[(ADDR_WIDTH-1)..0]" (rect 0 0 115 12)(font "Arial" ))
+		(text "addr[(ADDR_WIDTH-1)..0]" (rect 21 59 136 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "data[7..0]" (rect 0 0 36 12)(font "Arial" ))
+		(text "data[7..0]" (rect 21 75 57 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "wr_en" (rect 0 0 24 12)(font "Arial" ))
+		(text "wr_en" (rect 21 91 45 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 296 32)
+		(output)
+		(text "audif_rst_n" (rect 0 0 46 12)(font "Arial" ))
+		(text "audif_rst_n" (rect 229 27 275 39)(font "Arial" ))
+		(line (pt 296 32)(pt 280 32)(line_width 1))
+	)
+	(port
+		(pt 296 48)
+		(output)
+		(text "audif_word_size" (rect 0 0 63 12)(font "Arial" ))
+		(text "audif_word_size" (rect 212 43 275 55)(font "Arial" ))
+		(line (pt 296 48)(pt 280 48)(line_width 1))
+	)
+	(port
+		(pt 296 64)
+		(output)
+		(text "audif_sck_div[2..0]" (rect 0 0 76 12)(font "Arial" ))
+		(text "audif_sck_div[2..0]" (rect 199 59 275 71)(font "Arial" ))
+		(line (pt 296 64)(pt 280 64)(line_width 3))
+	)
+	(port
+		(pt 296 80)
+		(output)
+		(text "audif_mck_div[2..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "audif_mck_div[2..0]" (rect 195 75 275 87)(font "Arial" ))
+		(line (pt 296 80)(pt 280 80)(line_width 3))
+	)
+	(port
+		(pt 296 96)
+		(output)
+		(text "audif_clk_src" (rect 0 0 54 12)(font "Arial" ))
+		(text "audif_clk_src" (rect 221 91 275 103)(font "Arial" ))
+		(line (pt 296 96)(pt 280 96)(line_width 1))
+	)
+	(port
+		(pt 296 112)
+		(output)
+		(text "audif_dsd_en" (rect 0 0 54 12)(font "Arial" ))
+		(text "audif_dsd_en" (rect 221 107 275 119)(font "Arial" ))
+		(line (pt 296 112)(pt 280 112)(line_width 1))
+	)
+	(port
+		(pt 296 128)
+		(output)
+		(text "audif_dop_en" (rect 0 0 54 12)(font "Arial" ))
+		(text "audif_dop_en" (rect 221 123 275 135)(font "Arial" ))
+		(line (pt 296 128)(pt 280 128)(line_width 1))
+	)
+	(port
+		(pt 296 144)
+		(output)
+		(text "buf_rst_n" (rect 0 0 40 12)(font "Arial" ))
+		(text "buf_rst_n" (rect 235 139 275 151)(font "Arial" ))
+		(line (pt 296 144)(pt 280 144)(line_width 1))
+	)
+	(port
+		(pt 296 160)
+		(output)
+		(text "buf_cap[17..0]" (rect 0 0 56 12)(font "Arial" ))
+		(text "buf_cap[17..0]" (rect 219 155 275 167)(font "Arial" ))
+		(line (pt 296 160)(pt 280 160)(line_width 3))
+	)
+	(port
+		(pt 296 176)
+		(output)
+		(text "fx2if_rst_n" (rect 0 0 44 12)(font "Arial" ))
+		(text "fx2if_rst_n" (rect 231 171 275 183)(font "Arial" ))
+		(line (pt 296 176)(pt 280 176)(line_width 1))
+	)
+	(parameter
+		"ADDR_WIDTH"
+		"3"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 280 192)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 312 -64 412 16))
+)

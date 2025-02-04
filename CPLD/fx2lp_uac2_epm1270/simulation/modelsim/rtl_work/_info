@@ -1,0 +1,305 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documents/FPGA/fx2lp_uac2_epm1270/simulation/modelsim
+T_opt
+Z1 !s110 1737659807
+VWPjfR;V]7FmF@CzohHmXF1
+04 9 4 work tb_dop_if fast 0
+=1-708bcd564115-6792959f-294-10b4
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxii_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vcirc_buf
+Z3 !s110 1737659806
+!i10b 1
+!s100 [C0S@2Wkba_0@<Qzg21LA3
+IW@0jo_nVBG?P?;ncMK9J60
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1737225133
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/circ_buf.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/circ_buf.v
+L0 1
+Z5 OL;L;10.5;63
+r1
+!s85 0
+31
+Z6 !s108 1737659806.000000
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/circ_buf.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/circ_buf.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vclk_divider
+R3
+!i10b 1
+!s100 ?X]gY_=P6cHkVDIi7YzoY1
+IL_8I1`5`cf0okO>>XfDf32
+R4
+R0
+w1736163364
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/clk_divider.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/clk_divider.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/clk_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/clk_divider.v|
+!i113 0
+R7
+R8
+R2
+vdop_detector
+Z9 !s110 1737659804
+!i10b 1
+!s100 QlNgU@5cFkNT=<`CVA1m31
+I0z<J2^NY<6oD?KKaH0RgU1
+R4
+R0
+w1735913039
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/dop_detector.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/dop_detector.v
+L0 20
+R5
+r1
+!s85 0
+31
+Z10 !s108 1737659804.000000
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/dop_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/dop_detector.v|
+!i113 0
+R7
+R8
+R2
+vdop_if
+R1
+!i10b 1
+!s100 W3CecDUE^N;JTOaAAoeHC0
+I<J]BoKG5JCFf_2R>G>]dT2
+R4
+R0
+w1737659419
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/dop_if.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/dop_if.v
+L0 1
+R5
+r1
+!s85 0
+31
+Z11 !s108 1737659807.000000
+Z12 !s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/dop_if.v|D:/Documents/FPGA/fx2lp_uac2_epm1270/tb_dop_if.v|
+Z13 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/tb_dop_if.v|
+!i113 0
+R7
+R8
+R2
+vdual_edge_det
+R1
+!i10b 1
+!s100 49U6joJVJ`LHL`@L>4;W_2
+I9=PWK@]>VAWa4QeQ506gK2
+R4
+R0
+w1735224820
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/dual_edge_det.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/dual_edge_det.v
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/dual_edge_det.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/dual_edge_det.v|
+!i113 0
+R7
+R8
+R2
+vfeedback_gen
+R9
+!i10b 1
+!s100 LcHB85:0?K_WGL7:f3>7V1
+IQ^EjCcn65o87Y8Cb<EOHE3
+R4
+R0
+w1735824877
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/feedback_gen.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/feedback_gen.v
+L0 7
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/feedback_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/feedback_gen.v|
+!i113 0
+R7
+R8
+R2
+vfx2_if
+R3
+!i10b 1
+!s100 NgCE3KijM0[NPWPXJS<Dd3
+I19aE;Rk;]nniZcdY7zOd83
+R4
+R0
+w1737313542
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/fx2_if.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/fx2_if.v
+L0 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/fx2_if.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/fx2_if.v|
+!i113 0
+R7
+R8
+R2
+vi2c_if
+Z14 !s110 1737659805
+!i10b 1
+!s100 l^Q<?9AES6?UiamZ_^=:C0
+IUY7PVT9]:k=63Z[AB:oo31
+R4
+R0
+w1735630127
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/i2c_if.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/i2c_if.v
+L0 4
+R5
+r1
+!s85 0
+31
+Z15 !s108 1737659805.000000
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/i2c_if.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/i2c_if.v|
+!i113 0
+R7
+R8
+R2
+vi2s_master
+R3
+!i10b 1
+!s100 6e:oeSKA:7N:20Tg1o[hP2
+IT7M<6LMQ6Rh68[o;U_FF=2
+R4
+R0
+w1737579383
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/i2s_master.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/i2s_master.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/i2s_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/i2s_master.v|
+!i113 0
+R7
+R8
+R2
+vpos_edge_det
+R3
+!i10b 1
+!s100 3j8EF4n_TPTEO^kl6fABo1
+IkELG8d>gag[gIRAfA6Skl1
+R4
+R0
+w1737223099
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/pos_edge_det.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/pos_edge_det.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/pos_edge_det.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/pos_edge_det.v|
+!i113 0
+R7
+R8
+R2
+vpulse_extender
+R14
+!i10b 1
+!s100 dUo2DPVTj`nT1XbL9Pb9e3
+IhRAQ=;Kn:?B>EmNS:LMYg1
+R4
+R0
+w1735477071
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/pulse_extender.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/pulse_extender.v
+L0 1
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/pulse_extender.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/pulse_extender.v|
+!i113 0
+R7
+R8
+R2
+vreg_file
+R14
+!i10b 1
+!s100 9N_1XjlY4`1]c7H7?P3d61
+I4kR[BeM>^1n7`d]ZAMWY<0
+R4
+R0
+w1736164209
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/reg_file.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/reg_file.v
+L0 17
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/Documents/FPGA/fx2lp_uac2_epm1270/reg_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documents/FPGA/fx2lp_uac2_epm1270|D:/Documents/FPGA/fx2lp_uac2_epm1270/reg_file.v|
+!i113 0
+R7
+R8
+R2
+vtb_dop_if
+R1
+!i10b 1
+!s100 kI:SCg`V93U^V[mG`ZJ572
+I8Cd@Y1IY[h9POIfcB]n_>3
+R4
+R0
+w1737659776
+8D:/Documents/FPGA/fx2lp_uac2_epm1270/tb_dop_if.v
+FD:/Documents/FPGA/fx2lp_uac2_epm1270/tb_dop_if.v
+L0 5
+R5
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R7
+R8
+R2

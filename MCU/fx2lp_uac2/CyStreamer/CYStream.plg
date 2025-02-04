@@ -1,0 +1,23 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\RSKV\Work_proj\Application notes\FX2LP User Guide\Cypress\USB\CY3684_EZ-USB_FX2LP_DVK\1.1\Firmware\CyStreamer\CYStream.uv2
+Project File Date:  07/30/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling dscr.a51...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_EZUSB_READI2C?I2C_RW
+Program Size: data=51.5 xdata=4489 code=4577
+creating hex file from "CYStream"...
+User command #1: ..\..\Bin\hex2bix -i -f 0xC2 -o CYStream.iic CYStream.hex
+Intel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 2012-2013, Cypress Semiconductor Inc.
+4640 Bytes written.
+Total Code Bytes = 4571
+Conversion completed successfully.
+"CYStream" - 0 Error(s), 1 Warning(s).

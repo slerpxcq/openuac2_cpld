@@ -1,0 +1,24 @@
+{
+  signal: [
+  {name: 'ifclk',      wave: 'N............'},
+  ["write", 
+   {name: 'wr_en',     wave: '01........0..'},
+   {name: 'wr_addr',   wave: 'x==========..', data: '0 1 2 3 4 5 6 7 0 1'},
+   {name: 'wr_data',   wave: 'x=========x..', data: 'w[0] w[1] w[2] w[3] w[4] w[5] w[6] w[7] w[8]'}
+  ],
+  ["read", 
+   {name: 'rd_req',    wave: '0..<0HHH>x...0<0HHH>x..'},
+   {name: 'rd_ok',     wave: '0....10....10'},
+   {name: 'rd_addr',   wave: '=....=.....=.', data: '0 1 2'},
+   {name: 'rd_data',   wave: 'x....=.....=.', data: 'm[0] m[1]'}
+  ],
+  ["control",
+   {name: "we_n",      wave: '1<0.1.0.1.0.1.0.1.0.1.0.1.0.1.0.1.0.1.....>1'},
+   {name: "oe_n",      wave: '1<1.......0.1...........0.1..>1'},
+   {name: "dq",        wave: 'z<=.z.=.z.=.z.=.=.=.z.=.z.=.z.=.z.=.z..=.>z.', data: 'w[0] w[1] w[2] w[3] m[0] w[4] w[5] w[6] w[7] w[8] m[1]'},
+   {name: "addr",      wave: 'x<=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.x..>x', data: '0 0 1 0 2 0 3 1 4 1 5 1 6 1 7 1 0 1 0 2'}
+  ],
+    {name: "state",    wave: '==..==....==.', data: 'idle wr wr_rd wr rd idle'}], 
+ config: { hscale: 2 },
+ foot: { text:'General read/write' }
+}
